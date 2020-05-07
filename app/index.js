@@ -1,5 +1,6 @@
 var React = require('react');
-
+var ReactDOM = require('react-dom');
+require('index.css');
 // components have:
 // state
 // lifecycle events
@@ -15,3 +16,8 @@ class App extends React.Component {
     }//END render
 
 }
+
+ReactDOM.render(
+    <App />,// render this component to the id=app
+    document.getElementById('app');
+);
