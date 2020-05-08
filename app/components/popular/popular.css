@@ -1,0 +1,21 @@
+/* languages-nav */
+.languages-nav{
+    display: flex;
+    justify-content: center;
+}
+.languages-nav__ul{
+    flex: 0 0 70%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.languages-nav__list{
+    flex: 1;
+    text-align: center;
+    font-weight: 900;
+    cursor: pointer;
+}
+.languages-nav__list--active{
+    font-weight: 900;
+    color: red;
+}
